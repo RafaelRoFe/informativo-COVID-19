@@ -239,4 +239,53 @@ a.article, a.article:hover {
 
 }
 
+/* testes */
+.div-body{
+    /* background-image: url("imagens/fundo-site"); */
+    background-color: blue;
+    width: 100%;
+    min-height: 100vh;
 
+}
+.conteudo{
+    width: 70%;
+    min-height: 100vh;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #fff;
+    
+}
+.col-7{
+    min-height: 100vh; 
+    /* background-color: #a34c4c; */
+    margin: 0;
+}
+.col-5{
+    min-height: 100vh;
+   
+    margin: 0;
+}
+
+.coluna1{
+   
+    min-height: 100vh;
+    margin:0;
+    background-color: #A9A9A9;
+    text-align: center;
+    color: white;
+
+}
+
+
+.coluna2{
+   
+    min-height: 50vh;
+    margin:0;
+    background-color: #A9A9A9;
+
+}
+
+.textcolor{
+    text-align: center;
+    color: white;
+}
