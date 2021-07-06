@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,21 +8,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!--CSS e JS-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="js/bootstrap.min.js"> </script>
-
-
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="js/navbar.js">
-    
-    <!--???-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-   
-   
-    <!--Javascript-->
-    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
-   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+
+    <!--FAV ICON-->
+    <link rel="apple-touch-icon" sizes="57x57" href="imagens/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="imagens/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="imagens/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="imagens/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="imagens/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="imagens/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="imagens/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="imagens/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="imagens/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="imagens/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="imagens/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon-16x16.png">
+    <link rel="manifest" href="imagens/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!--NOME SITE-->
     <title>Informativo Covid-19</title>
     
 
@@ -29,142 +40,147 @@
 
 
 <body>
-</div>
-<!--MENU-->
-<div class="wrapper">
-  <nav id="sidebar">
-      <div class="sidebar-header">
-          <h3>Informativo COVID-19</h3>
-      </div>
 
-      <ul class="list-unstyled components">
-          <li class="active">
-              <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Matéria</a>
-              <ul class="collapse list-unstyled" id="homeSubmenu">
-                  <li>
-                      <a href="others_pages/busque ajuda/busque.html">Busque ajuda</a>
-                  </li>
-                  <li>
-                      <a href="others_pages/sequelas/sequelas.html">Sequelas</a>
-                  </li>
-                  <li>
-                      <a href="others_pages/relatos/relatos.html">Relatos</a>
-                  </li>
-              </ul>
-          </li>
-  </nav>
+<!-- div principal -->
+<div class="div-body">
+<!--<img src="fundo-site.jpg" class="img-fluid img-thumbnail" alt="...">-->
 
-  <div id="content">
-
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container-fluid">
-
-              <button type="button" id="sidebarCollapse" class="navbar-btn">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-              </button>
-              <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <i class="fas fa-align-justify"></i>
-              </button>
-
-              <!--BARRA DE PESQUISA-->
-              <nav class="navbar navbar-light bg-light">
-                <div class="container-fluid">
-                  <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar" list="historico"> 
-                    <a href="others_pages/busque ajuda/busque.html"></a>
-                    <datalist id="historico">
-                        <option value="Busque ajuda"></option>
-                        <option value="Sequelas"></option>
-                        <option value="Relatos"></option>
-                    </datalist>
-                    <button class="btn btn-outline-success" type="submit">Buscar</button>
-                  </form>
-                </div>
-              </nav>
-              <!--FIM BARRA DE PESQUISA-->
-
-              <!--<div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="nav navbar-nav ml-auto">
-                      <li class="nav-item active">
-                          <a class="nav-link" href="#">Page</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="#">Page</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="#">Page</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="#">Page</a>
-                      </li>
-                  </ul>
-              </div>-->
+  <!-- div branca do meio -->
+  <div class="conteudo">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Informativo Covid-19</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active"  aria-current="page" href="index.html">Inicio</a>
+            <a class="nav-link" href="busque.html">Busque ajuda</a>
+            <a class="nav-link" href="sequelas.html">Doenças</a>
+            <a class="nav-link" href="relatos.html">Relatos</a>
           </div>
-      </nav>
-
-      <!--Carrossel-->
-<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="imagens/vacina.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="imagens/mal humor.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="imagens/fundo site.jpg" class="d-block w-100" alt="...">
-    </div>
+        </div>
+      </div>
+    </nav>
+      <div class="container">
+          <div class="row">
+              <!-- coluna 1 -->
+              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner" class="imagem">
+                    <div class="carousel-item active">
+                        <img src="imagens/yoga.jpg" class="d-block w-100" alt="...">
+                        <a href='https://br.freepik.com/fotos/pessoas'>Pessoas foto criado por rawpixel.com - br.freepik.com</a>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagens/companheiros.jpg.jpg" class="d-block w-100" alt="...">
+                        <a href='https://br.freepik.com/fotos/mulher'>Mulher foto criado por rawpixel.com - br.freepik.com</a>
+                    </div>
+                    <div class="carousel-item">                      
+                        <img src="imagens/familia.jpg" class="d-block w-100" alt="...">
+                        <a href='https://br.freepik.com/fotos/pessoas'>Pessoas foto criado por mego-studio - br.freepik.com</a>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                <br>
+            </div>
+            <br>
+              <div class="col-6">
+                  <div class="coluna1">
+                    <h4 class="text-color-artigo">Nossos Artigos</h4>
+                    <br>
+                      <P class="textcolor"></P>
+                      <div class="row g-0 bg-light position-relative">
+                        <div class="col-md-6 mb-md-0 p-md-4">
+                          <img src="imagens/vacina.jpg" class="w-100" alt="...">
+                        </div>
+                        <div class="col-md-6 p-4 ps-md-0">
+                          <h5 class="mt-0">Vacinômetro</h5>
+                          <p class="textcolor">Aqui você fica por dentro do total de dozes da vacina em Minas Gerais.</p>
+                          <a href="https://coronavirus.saude.mg.gov.br/vacinometro" target="_blank" class="stretched-link">Clique aqui</a>
+                        </div>
+                      </div>
+                      <br>
+                      <div class="row g-0 bg-light position-relative">
+                        <div class="col-md-6 mb-md-0 p-md-4">
+                          <img src="imagens/maos.jpg" class="w-100" alt="...">
+                        </div>
+                        <div class="col-md-6 p-4 ps-md-0">
+                          <h5 class="mt-0">Matéria - Busque ajuda</h5>
+                          <p>Neste artigo falamos um pouco de como é importante você buscar ajuda em momentos difíces.</p>
+                          <a href="busque.html" class="stretched-link">Clique aqui</a>
+                        </div>
+                      </div>
+                      <div class="row g-0 bg-light position-relative">
+                        <div class="col-md-6 mb-md-0 p-md-4">
+                          <img src="imagens/pessoas-felizes.jpg" class="w-100" alt="...">
+                        </div>
+                        <div class="col-md-6 p-4 ps-md-0">
+                          <h5 class="mt-0">Relatos</h5>
+                          <p class="textcolor">Separamos algumas pessoas que passaram pelo Covid-19, E que estão bem.</p>
+                          <a href="relatos.html" class="stretched-link">Clique aqui</a>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+              <!-- coluna 2 -->
+              <div class="col-6">
+                  <div class="coluna2">
+                    <h1 class="text-center"></h1>
+                    <P class="textcolor"></P>
+                  </div>
+              </div>
+          </div>
+      </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-      <!--FIM CARROSSEL-->
 
-     <!-- TEXTO NA PAGINA PRINCIPAL <h2>Collapsible Sidebar Using Bootstrap 4</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-      <div class="line"></div>
-
-      <h2>Lorem Ipsum Dolor</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-      <div class="line"></div>
-
-      <h2>Lorem Ipsum Dolor</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-      <div class="line"></div>
-
-      <h3>Lorem Ipsum Dolor</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-     -->
-  </div>
+  <!-- FOOTER -->
 </div>
-
-<!-- jQuery CDN -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<!-- Popper.JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-<!-- Bootstrap JS -->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-
-<script type="text/javascript">
-  $(document).ready(function () {
-      $('#sidebarCollapse').on('click', function () {
-          $('#sidebar').toggleClass('active');
-          $(this).toggleClass('active');
-      });
-  });
-</script>
-<!--FIM MENU -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 footer-column">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <span class="footer-title">Informativo Covid-19</span>
+            <p class="textcolor-footer"><b>Atenção:</b> O Informativo Covid-19 é um espaço informativo
+            e educacional sobre temas relacionados com saúde e bem-estar, não devendo ser utilizado como substituto ao diagnóstico médico 
+            ou tratamento sem antes consultar um profissional de saúde.</p>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-4 footer-column">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <span class="footer-title">Quem somos</span>
+            <p class="textcolor-footer">Somos um grupo de estudantes da faculdade UNIPAC - Uberlândia, do Curso de ADS "Análise e Desenvolvimento de Sistemas".</p>
+              <p class="textcolor-footer"> Fizemos este site com o intuito de trazer informação para
+              o público e ajudar quem esteja passando por alguma dificuldade que o Covid-19 trouxe.</p>
+          </li>
+        </ul>
+    </div>
+      <div class="text-center"><i class="fas fa-ellipsis-h"></i></div>
+      <div class="col-md-4 box">
+        <span class="copyright quick-links" class="text-center">Copyright &copy; Informativo Covid-19 - 2021
+        </span>
+      </div>
+    </div>
+    </div>
+  </div>
+    </div>
+  </div>
+</footer>
+<!--FIM FOOTER-->
 </body>
 
 
