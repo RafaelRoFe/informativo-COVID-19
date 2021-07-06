@@ -5,19 +5,21 @@
  /*  height: 100%;
    margin: 0;*/
 }
-/*.bg{
-   background-image: url(fundo-site.jpg);
-   background-color: tomato;
-}*/
+.navbar-brand{
+  font-size: 23px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: capitalize;
+}
+
 /* CARROSEL */
 .carousel-item{
-    /*left: 5%;*/
-   height: 570px;
-   /* outline: 2px solid rgba(1, 110, 160, 0.7);*/
+    height: 490px;
+    left: 190px;
     overflow: hidden;
-    margin: 7px;
-    box-shadow : 10px 10px 15px rgba(1, 110, 160, 0.7);
-    min-width: 100%;
+    margin: 10px;
+    box-shadow : 10px 10px 15px rgba(3, 168, 245, 0.7);
+    width: 900px;
 }
 .imagem{
     max-width: 100%;
@@ -26,15 +28,11 @@
     object-fit: cover;
 }
 /*FIM CSS-CARROSSEL*/
-/* testes */
+
 .div-body{
-    /*IMAGEM NAO ESTA FUNCIONANDO (BACKGROUND) */
-   /* background-image: url("imagens/fundo-site"); */
-  /* background-image: url("imagens/fundo-site.jpg");*/
-    background-color: #1b3e5f;
+    background-color: #16395a;
     width: 100%;
     min-height: 100vh;
-
 }
 .conteudo{
     width: 70%;
@@ -42,26 +40,27 @@
     margin-right: auto;
     margin-left: auto;
     background-color: #fff;
-    
 }
-.col-7{
+.col-6{
     min-height: 100vh; 
     /* background-color: #a34c4c; */
     margin: 0;
 }
-.col-5{
+.col-6{
     min-height: 100vh;
-   
     margin: 0;
+    height: 250%;
 }
 
 .coluna1{
-   
+    text-align: justify;
     min-height: 100vh;
     margin:0;
     background-color: #ffffff;
     text-align: center;
-    color: rgb(7, 7, 7);
+    /*color: rgb(7, 7, 7);*/
+    padding: 10px;
+    height: 25%;
 
 }
 
@@ -75,35 +74,27 @@
 }
 
 .textcolor{
+    
     text-align: center;
-    color: rgb(7, 7, 7);
+   /* color: rgb(7, 7, 7);*/
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     
 }
 
 .container-fluid{
 
-    min-height: 12vh;
+    min-height: 16vh;
     background: #6099ce;
+    font-size: 18px;
+    font-family: Helvetica;
+    font-weight: 500;
+    color: #fff;
+    text-transform: capitalize;
+    width: 100%;
     
 }
-/*FOOTER DO SITE*/
-/*.link-light-grey{
-    color: #6c757d;
-} 
-.primary-orange{
-    color: #fec503; 
-    color: #fed136;
-} */
-.footer-background-light-grey{
-    color: #8cd349;
-}
-.footer-background-grey{
-    color: #8cd349;
-}
-.social-buttons-circle-dark-grey{
-    color: #8cd349;
-} 
 
+/*FOOTER DO SITE*/
 .col-md-4:nth-child(even) {
    background: #5c8833;
    width: 788px;
@@ -119,21 +110,13 @@
   margin-left: auto;
   
 }
-a {
-  color: #ffffff;
-}
-a:hover {
-  color: primary-orange;
-  text-decoration: none;
-}
-
 ::selection {
-  background-color: #000000;
+  background-color: #c2ccf8;
   text-shadow: none;
 }
 
 footer {
-  padding: 3rem 0;
+  padding: 25px;
   background-color: #7cbd3f;
 }
 .container .row:not(:last-child) {
@@ -191,7 +174,47 @@ footer .quick-links {
 .textcolor-footer{
     color: rgb(255, 255, 255);
 }
+/*PAGINA - BUSQUE AJUDA*/
 
+.font-size{
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.tamanho-da-fonte{
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.img-thumbnail{
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+}
+.text-color-artigo{
+  color: rgb(38, 98, 167);
+  font-size: 24px; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.clearfix{
+ /* width: 50%;*/
+  height: 400px;
+  font-size: 18px;
+  /*font-family: Arial, Helvetica, sans-serif;*/
+}
+.tamanho-alinha{
+  font-size: 28px;
+}
+.img-thumbnail{
+  height: 150px;
+  width: 150px;
+}
+.nav{
+  color: #6099ce;
+}
+.tamanho-fonte-relatos{
+  font-size: 19px;
+}
 /*******************IMAGEM OUTRAS PAGINAS*************/
 /*.imagem{
     width: 750px;
